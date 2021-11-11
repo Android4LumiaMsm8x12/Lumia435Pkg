@@ -49,11 +49,11 @@
   # Set video resolution for boot options and for text setup.
   # PlatformDxe can set the former at runtime.
   #
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|540
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|960
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|540
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|960
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|120
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutColumn|50
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|720
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|1280
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|720
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|1280
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|160
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutColumn|37
 
 !include Lumia535Pkg/Shared.dsc.inc

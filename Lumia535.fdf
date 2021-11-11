@@ -63,6 +63,8 @@ READ_LOCK_STATUS   = TRUE
   INF Lumia535Pkg/Driver/KeypadDxe/KeypadDxe.inf
   INF Lumia535Pkg/Driver/ClockDxe/ClockDxe.inf
   INF Lumia535Pkg/Driver/SdhciMMCHSDxe/SdhciMMCHS.inf
+  INF Lumia535Pkg/Driver/SmemDxe/SmemDxe.inf
+  INF Lumia535Pkg/Driver/SmdRpmDxe/RpmDxe.inf
 
   # Runtime Services
   INF MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
