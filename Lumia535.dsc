@@ -39,28 +39,28 @@
   gLumia535PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x03300000
 
   # Default resolution for this firmware can be seen in dec file, override here for specific platform configuration if needed
-  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|540
-  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|960
-  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|540
-  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|960
+  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|480
+  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|800
+  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|480
+  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|800
 
 [PcdsDynamicDefault.common]
   #
   # Set video resolution for boot options and for text setup.
   # PlatformDxe can set the former at runtime.
   #
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|720
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|1280
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|720
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|1280
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|480
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|800
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|400
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|800
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|160
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutColumn|37
 
   [PcdsPatchableInModule]
    # Console Resolution
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|540
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|960
-  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|50
-  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|120
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|480
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|800
+  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|40
+  gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|100
 
 !include Lumia535Pkg/Shared.dsc.inc
