@@ -1,4 +1,4 @@
-[FD.MSM8612_EFI]
+[FD.MSM8610_EFI]
 BaseAddress   = 0x3CC00000|gArmTokenSpaceGuid.PcdFdBaseAddress  #The base address of the FLASH Device.
 Size          = 0x00100000|gArmTokenSpaceGuid.PcdFdSize         #The size in bytes of the FLASH Device
 ErasePolarity = 1
@@ -54,17 +54,17 @@ READ_LOCK_STATUS   = TRUE
   INF EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
 
   # SoC Drivers (Cross-referenced from EFIDroid and Ben)
-  INF Lumia535Pkg/Driver/BamDxe/BamDxe.inf
-  INF Lumia535Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmDxe.inf
-  INF Lumia535Pkg/GPLDriver/GpioTlmmInterruptDxe/GpioTlmmInterruptDxe.inf
-  INF Lumia535Pkg/Driver/SpmiDxe/SpmiDxe.inf
-  INF Lumia535Pkg/Driver/Pm8x41Dxe/Pm8x41Dxe.inf
-  INF Lumia535Pkg/Driver/GenericKeypadDeviceDxe/GenericKeypadDeviceDxe.inf
-  INF Lumia535Pkg/Driver/KeypadDxe/KeypadDxe.inf
-  INF Lumia535Pkg/Driver/ClockDxe/ClockDxe.inf
-  INF Lumia535Pkg/Driver/SdhciMMCHSDxe/SdhciMMCHS.inf
-  INF Lumia535Pkg/Driver/SmemDxe/SmemDxe.inf
-  INF Lumia535Pkg/Driver/SmdRpmDxe/RpmDxe.inf
+  INF Lumia435Pkg/Driver/BamDxe/BamDxe.inf
+  INF Lumia435Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmDxe.inf
+  INF Lumia435Pkg/GPLDriver/GpioTlmmInterruptDxe/GpioTlmmInterruptDxe.inf
+  INF Lumia435Pkg/Driver/SpmiDxe/SpmiDxe.inf
+  INF Lumia435Pkg/Driver/Pm8x41Dxe/Pm8x41Dxe.inf
+  INF Lumia435Pkg/Driver/GenericKeypadDeviceDxe/GenericKeypadDeviceDxe.inf
+  INF Lumia435Pkg/Driver/KeypadDxe/KeypadDxe.inf
+  INF Lumia435Pkg/Driver/ClockDxe/ClockDxe.inf
+  INF Lumia435Pkg/Driver/SdhciMMCHSDxe/SdhciMMCHS.inf
+  INF Lumia435Pkg/Driver/SmemDxe/SmemDxe.inf
+  INF Lumia435Pkg/Driver/SmdRpmDxe/RpmDxe.inf
 
   # Runtime Services
   INF MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
@@ -77,13 +77,13 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf
 
   # Graphics
-  INF Lumia535Pkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+  INF Lumia435Pkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 
   # BDS
   INF MdeModulePkg/Universal/PrintDxe/PrintDxe.inf
   INF MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
-  INF Lumia535Pkg/Drivers/ConSplitterDxe/ConSplitterDxe.inf
-  INF Lumia535Pkg/Drivers/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
+  INF Lumia435Pkg/Drivers/ConSplitterDxe/ConSplitterDxe.inf
+  INF Lumia435Pkg/Drivers/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
   INF MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
   INF MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
   INF MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
@@ -92,7 +92,7 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   INF MdeModulePkg/Application/UiApp/UiApp.inf
-  INF Lumia535Pkg/Driver/LogoDxe/LogoDxe.inf
+  INF Lumia435Pkg/Driver/LogoDxe/LogoDxe.inf
 
   # Disk IO
   INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
@@ -114,7 +114,7 @@ READ_LOCK_STATUS   = TRUE
   INF NetworkPkg/Udp4Dxe/Udp4Dxe.inf
 
   #ACPI and SMBIOS
-  INF Lumia535Pkg/Driver/SmBiosTableDxe/SmBiosTableDxe.inf
+  INF Lumia435Pkg/Driver/SmBiosTableDxe/SmBiosTableDxe.inf
   # Shell
   INF ShellPkg/Application/Shell/Shell.inf
 
@@ -136,14 +136,14 @@ READ_STATUS        = TRUE
 READ_LOCK_CAP      = TRUE
 READ_LOCK_STATUS   = TRUE
 
-  INF Lumia535Pkg/PrePi/PrePi.inf
+  INF Lumia435Pkg/PrePi/PrePi.inf
 
   #
   # PI DXE Drivers producing Architectural Protocols (EFI Services)
   #
   FILE FREEFORM = a4c429b1-046a-4e7d-afbc-c6988e8fe7cc {
     SECTION UI = "platform.json"
-    SECTION RAW = Lumia535Pkg/Resources/Platform.json
+    SECTION RAW = Lumia435Pkg/Resources/Platform.json
   }
 
   FILE FV_IMAGE = 9E21FD93-9C72-4c15-8C4B-E77F1DB2D792 {
@@ -152,4 +152,4 @@ READ_LOCK_STATUS   = TRUE
     }
   }
 
-!include Lumia535.fdf.inc
+!include Lumia435.fdf.inc

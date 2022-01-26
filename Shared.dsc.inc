@@ -162,7 +162,7 @@
   ArmGicLib|ArmPkg/Drivers/ArmGic/ArmGicLib.inf
   ArmSmcLib|ArmPkg/Library/ArmSmcLib/ArmSmcLib.inf
   ArmGicArchLib|ArmPkg/Library/ArmGicArchLib/ArmGicArchLib.inf
-  ArmPlatformLib|Lumia535Pkg/Library/Lumia535Lib/Lumia535Lib.inf
+  ArmPlatformLib|Lumia435Pkg/Library/Lumia435Lib/Lumia435Lib.inf
   ArmPlatformStackLib|ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib.inf
   BaseLib|MdePkg/Library/BaseLib/BaseLib.inf
   BaseMemoryLib|MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
@@ -231,26 +231,26 @@
 #  PmicShutdownLibBoot|DragonboardVendorPkg/Library/PmicShutdownLib/PmicShutdownBoottimeLib.inf
 
   # Platform Drivers
-  SerialPortLib|Lumia535Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
-  MemoryInitPeiLib|Lumia535Pkg/Library/MemoryInitPeiLib/PeiMemoryAllocationLib.inf
-  PlatformPeiLib|Lumia535Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
-  PlatformBootManagerLib|Lumia535Pkg/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf
+  SerialPortLib|Lumia435Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
+  MemoryInitPeiLib|Lumia435Pkg/Library/MemoryInitPeiLib/PeiMemoryAllocationLib.inf
+  PlatformPeiLib|Lumia435Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
+  PlatformBootManagerLib|Lumia435Pkg/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf
 
   # SoC Drivers
-  QTimerLib|Lumia535Pkg/Library/QTimerLib/QTimerLib.inf
-  InterruptsLib|Lumia535Pkg/Library/InterruptsLib/InterruptsLib.inf
-  MallocLib|Lumia535Pkg/Library/MallocLib/MallocLib.inf
-  KeypadDeviceHelperLib|Lumia535Pkg/Library/KeypadDeviceHelperLib/KeypadDeviceHelperLib.inf
-  KeypadDeviceImplLib|Lumia535Pkg/Library/KeypadDeviceImplLib/KeypadDeviceImplLib.inf
-  DloadUtilLib|Lumia535Pkg/Library/DloadUtilLib/DloadUtilLib.inf
-  QcomPlatformClockInitLib|Lumia535Pkg/Library/QcomPlatformClockInitLib/QcomPlatformClockInitLib.inf
-  QcomPlatformMmcLib|Lumia535Pkg/Library/PlatformMmcLib/QcomPlatformMmcLib.inf
-  QcomPlatformMmcClockOverrideLib|Lumia535Pkg/Library/QcomPlatformMmcClockOverrideLib/QcomPlatformMmcClockOverrideLib.inf
-  QcomTargetMmcSdhciLib|Lumia535Pkg/Library/TargetMmcSdhciLib/QcomTargetMmcSdhciLib.inf
-  LcmLib|Lumia535Pkg/Library/LcmLib/LcmLib.inf
-  MicroLibC|Lumia535Pkg/Library/MicroLibC/MicroLibC.inf
-  StrLib|Lumia535Pkg/Library/StrLib/StrLib.inf
-  SmemLib|Lumia535Pkg/Driver/SmemDxe/SmemImplLib.inf
+  QTimerLib|Lumia435Pkg/Library/QTimerLib/QTimerLib.inf
+  InterruptsLib|Lumia435Pkg/Library/InterruptsLib/InterruptsLib.inf
+  MallocLib|Lumia435Pkg/Library/MallocLib/MallocLib.inf
+  KeypadDeviceHelperLib|Lumia435Pkg/Library/KeypadDeviceHelperLib/KeypadDeviceHelperLib.inf
+  KeypadDeviceImplLib|Lumia435Pkg/Library/KeypadDeviceImplLib/KeypadDeviceImplLib.inf
+  DloadUtilLib|Lumia435Pkg/Library/DloadUtilLib/DloadUtilLib.inf
+  QcomPlatformClockInitLib|Lumia435Pkg/Library/QcomPlatformClockInitLib/QcomPlatformClockInitLib.inf
+  QcomPlatformMmcLib|Lumia435Pkg/Library/PlatformMmcLib/QcomPlatformMmcLib.inf
+  QcomPlatformMmcClockOverrideLib|Lumia435Pkg/Library/QcomPlatformMmcClockOverrideLib/QcomPlatformMmcClockOverrideLib.inf
+  QcomTargetMmcSdhciLib|Lumia435Pkg/Library/TargetMmcSdhciLib/QcomTargetMmcSdhciLib.inf
+  LcmLib|Lumia435Pkg/Library/LcmLib/LcmLib.inf
+  MicroLibC|Lumia435Pkg/Library/MicroLibC/MicroLibC.inf
+  StrLib|Lumia435Pkg/Library/StrLib/StrLib.inf
+  SmemLib|Lumia435Pkg/Driver/SmemDxe/SmemImplLib.inf
   
   # System Reset
   EfiResetSystemLib|ArmPkg/Library/ArmPsciResetSystemLib/ArmPsciResetSystemLib.inf
@@ -261,16 +261,16 @@
   PrePiMemoryAllocationLib|EmbeddedPkg/Library/PrePiMemoryAllocationLib/PrePiMemoryAllocationLib.inf
   PrePiHobListPointerLib|ArmPlatformPkg/Library/PrePiHobListPointerLib/PrePiHobListPointerLib.inf
   PcdLib|MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
-  RpmLib|Lumia535Pkg/Driver/SmdRpmDxe/RpmLib.inf
-  SmemLib|Lumia535Pkg/Driver/SmemDxe/SmemImplLib.inf
+  RpmLib|Lumia435Pkg/Driver/SmdRpmDxe/RpmLib.inf
+  SmemLib|Lumia435Pkg/Driver/SmemDxe/SmemImplLib.inf
 
   # SoC Drivers
-  GpioTlmmLib|Lumia535Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmImplLib.inf
-  SpmiLib|Lumia535Pkg/Driver/SpmiDxe/SpmiImplLib.inf
-  Pm8x41Lib|Lumia535Pkg/Driver/Pm8x41Dxe/Pm8x41ImplLib.inf
-  ClockLib|Lumia535Pkg/Driver/ClockDxe/ClockImplLib.inf
-  RpmLib|Lumia535Pkg/Driver/SmdRpmDxe/RpmLib.inf
-  SmemLib|Lumia535Pkg/Driver/SmemDxe/SmemImplLib.inf
+  GpioTlmmLib|Lumia435Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmImplLib.inf
+  SpmiLib|Lumia435Pkg/Driver/SpmiDxe/SpmiImplLib.inf
+  Pm8x41Lib|Lumia435Pkg/Driver/Pm8x41Dxe/Pm8x41ImplLib.inf
+  ClockLib|Lumia435Pkg/Driver/ClockDxe/ClockImplLib.inf
+  RpmLib|Lumia435Pkg/Driver/SmdRpmDxe/RpmLib.inf
+  SmemLib|Lumia435Pkg/Driver/SmemDxe/SmemImplLib.inf
 
 [LibraryClasses.common.DXE_CORE]
   HobLib|MdePkg/Library/DxeCoreHobLib/DxeCoreHobLib.inf
@@ -291,11 +291,11 @@
 # OfflineCrashDumpLib|DragonboardVendorPkg/Library/OfflineCrashDumpLib/OfflineCrashDumpDxeLib.inf
   ExtractGuidedSectionLib|MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib.inf
   # SoC Drivers
-  QcomDxeTimerLib|Lumia535Pkg/Library/QTimerLib/QcomQTimerDxeTimerLib.inf
-  GpioTlmmLib|Lumia535Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmLib.inf
-  SpmiLib|Lumia535Pkg/Driver/SpmiDxe/SpmiLib.inf
-  Pm8x41Lib|Lumia535Pkg/Driver/Pm8x41Dxe/Pm8x41Lib.inf
-  ClockLib|Lumia535Pkg/Driver/ClockDxe/ClockImplLib.inf
+  QcomDxeTimerLib|Lumia435Pkg/Library/QTimerLib/QcomQTimerDxeTimerLib.inf
+  GpioTlmmLib|Lumia435Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmLib.inf
+  SpmiLib|Lumia435Pkg/Driver/SpmiDxe/SpmiLib.inf
+  Pm8x41Lib|Lumia435Pkg/Driver/Pm8x41Dxe/Pm8x41Lib.inf
+  ClockLib|Lumia435Pkg/Driver/ClockDxe/ClockImplLib.inf
 
 
 [LibraryClasses.common.UEFI_APPLICATION]
@@ -307,14 +307,14 @@
   FileHandleLib|MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf
   ReportStatusCodeLib|MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib.inf
   ExtractGuidedSectionLib|MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib.inf
-  RpmLib|Lumia535Pkg/Driver/SmdRpmDxe/RpmLib.inf
+  RpmLib|Lumia435Pkg/Driver/SmdRpmDxe/RpmLib.inf
 
   # SoC Drivers
-  GpioTlmmLib|Lumia535Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmLib.inf
-  SpmiLib|Lumia535Pkg/Driver/SpmiDxe/SpmiLib.inf
-  Pm8x41Lib|Lumia535Pkg/Driver/Pm8x41Dxe/Pm8x41Lib.inf
-  ClockLib|Lumia535Pkg/Driver/ClockDxe/ClockImplLib.inf
-  SmemLib|Lumia535Pkg/Driver/SmemDxe/SmemImplLib.inf
+  GpioTlmmLib|Lumia435Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmLib.inf
+  SpmiLib|Lumia435Pkg/Driver/SpmiDxe/SpmiLib.inf
+  Pm8x41Lib|Lumia435Pkg/Driver/Pm8x41Dxe/Pm8x41Lib.inf
+  ClockLib|Lumia435Pkg/Driver/ClockDxe/ClockImplLib.inf
+  SmemLib|Lumia435Pkg/Driver/SmemDxe/SmemImplLib.inf
 
 [LibraryClasses.common.UEFI_DRIVER]
   ReportStatusCodeLib|MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib.inf
@@ -324,14 +324,14 @@
   MemoryAllocationLib|MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
   UefiScsiLib|MdePkg/Library/UefiScsiLib/UefiScsiLib.inf
   ExtractGuidedSectionLib|MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib.inf
-  RpmLib|Lumia535Pkg/Driver/SmdRpmDxe/RpmLib.inf
+  RpmLib|Lumia435Pkg/Driver/SmdRpmDxe/RpmLib.inf
 
   # SoC Drivers
-  GpioTlmmLib|Lumia535Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmLib.inf
-  SpmiLib|Lumia535Pkg/Driver/SpmiDxe/SpmiLib.inf
-  Pm8x41Lib|Lumia535Pkg/Driver/Pm8x41Dxe/Pm8x41Lib.inf
-  ClockLib|Lumia535Pkg/Driver/ClockDxe/ClockImplLib.inf
-  SmemLib|Lumia535Pkg/Driver/SmemDxe/SmemImplLib.inf
+  GpioTlmmLib|Lumia435Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmLib.inf
+  SpmiLib|Lumia435Pkg/Driver/SpmiDxe/SpmiLib.inf
+  Pm8x41Lib|Lumia435Pkg/Driver/Pm8x41Dxe/Pm8x41Lib.inf
+  ClockLib|Lumia435Pkg/Driver/ClockDxe/ClockImplLib.inf
+  SmemLib|Lumia435Pkg/Driver/SmemDxe/SmemImplLib.inf
 
 [LibraryClasses.common.DXE_RUNTIME_DRIVER]
   HobLib|MdePkg/Library/DxeHobLib/DxeHobLib.inf
@@ -344,7 +344,7 @@
   OrderedCollectionLib|MdePkg/Library/BaseOrderedCollectionRedBlackTreeLib/BaseOrderedCollectionRedBlackTreeLib.inf
 
 [Components.common]
-  Lumia535Pkg/PrePi/PrePi.inf
+  Lumia435Pkg/PrePi/PrePi.inf
 
 
   # DXE
@@ -374,17 +374,17 @@
   }
 
   # SoC Drivers (Cross-referenced from EFIDroid and Ben)
-  Lumia535Pkg/Driver/BamDxe/BamDxe.inf
-  Lumia535Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmDxe.inf
-  Lumia535Pkg/GPLDriver/GpioTlmmInterruptDxe/GpioTlmmInterruptDxe.inf
-  Lumia535Pkg/Driver/SpmiDxe/SpmiDxe.inf
-  Lumia535Pkg/Driver/Pm8x41Dxe/Pm8x41Dxe.inf
-  Lumia535Pkg/Driver/GenericKeypadDeviceDxe/GenericKeypadDeviceDxe.inf
-  Lumia535Pkg/Driver/KeypadDxe/KeypadDxe.inf
-  Lumia535Pkg/Driver/ClockDxe/ClockDxe.inf
-  Lumia535Pkg/Driver/SdhciMMCHSDxe/SdhciMMCHS.inf
-  Lumia535Pkg/Driver/SmemDxe/SmemDxe.inf
-  Lumia535Pkg/Driver/SmdRpmDxe/RpmDxe.inf
+  Lumia435Pkg/Driver/BamDxe/BamDxe.inf
+  Lumia435Pkg/GPLDriver/GpioTlmmDxe/GpioTlmmDxe.inf
+  Lumia435Pkg/GPLDriver/GpioTlmmInterruptDxe/GpioTlmmInterruptDxe.inf
+  Lumia435Pkg/Driver/SpmiDxe/SpmiDxe.inf
+  Lumia435Pkg/Driver/Pm8x41Dxe/Pm8x41Dxe.inf
+  Lumia435Pkg/Driver/GenericKeypadDeviceDxe/GenericKeypadDeviceDxe.inf
+  Lumia435Pkg/Driver/KeypadDxe/KeypadDxe.inf
+  Lumia435Pkg/Driver/ClockDxe/ClockDxe.inf
+  Lumia435Pkg/Driver/SdhciMMCHSDxe/SdhciMMCHS.inf
+  Lumia435Pkg/Driver/SmemDxe/SmemDxe.inf
+  Lumia435Pkg/Driver/SmdRpmDxe/RpmDxe.inf
 
 
   # Runtime Services
@@ -399,13 +399,13 @@
   MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf
 
   # Graphics Driver
-  Lumia535Pkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
+  Lumia435Pkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 
   # BDS
   MdeModulePkg/Universal/PrintDxe/PrintDxe.inf
   MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
-  Lumia535Pkg/Drivers/ConSplitterDxe/ConSplitterDxe.inf
-  Lumia535Pkg/Drivers/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
+  Lumia435Pkg/Drivers/ConSplitterDxe/ConSplitterDxe.inf
+  Lumia435Pkg/Drivers/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
   MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
   MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
   MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
@@ -419,7 +419,7 @@
       NULL|MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib.inf
       NULL|MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib.inf
   }
-  Lumia535Pkg/Driver/LogoDxe/LogoDxe.inf
+  Lumia435Pkg/Driver/LogoDxe/LogoDxe.inf
 
   # Disk IO
   MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
@@ -441,7 +441,7 @@
   NetworkPkg/Udp4Dxe/Udp4Dxe.inf
   
   # ACPI AND SMBIOS
-  Lumia535Pkg/Driver/SmBiosTableDxe/SmBiosTableDxe.inf
+  Lumia435Pkg/Driver/SmBiosTableDxe/SmBiosTableDxe.inf
   # Shell
   ShellPkg/Application/Shell/Shell.inf {
     <LibraryClasses>

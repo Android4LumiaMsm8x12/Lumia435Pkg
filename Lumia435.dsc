@@ -20,29 +20,29 @@
 #
 ################################################################################
 [Defines]
-  PLATFORM_NAME                  = Lumia535
+  PLATFORM_NAME                  = Lumia435
   PLATFORM_GUID                  = 566ba710-0bee-48e0-b56e-dcf4b0a38e04
   PLATFORM_VERSION               = 0.1
   DSC_SPECIFICATION              = 0x00010005
-  OUTPUT_DIRECTORY               = Build/Lumia535-$(ARCH)
+  OUTPUT_DIRECTORY               = Build/Lumia435-$(ARCH)
   SUPPORTED_ARCHITECTURES        = ARM
   BUILD_TARGETS                  = DEBUG|RELEASE
   SKUID_IDENTIFIER               = DEFAULT
-  FLASH_DEFINITION               = Lumia535Pkg/Lumia535.fdf
+  FLASH_DEFINITION               = Lumia435Pkg/Lumia435.fdf
 
 
 [PcdsFixedAtBuild.common]
   gArmTokenSpaceGuid.PcdSystemMemorySize|0x40000000         # 1GB
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x00000000
   gArmPlatformTokenSpaceGuid.PcdCoreCount|4
-  gLumia535PkgTokenSpaceGuid.PcdPreAllocatedMemorySize|0x3CD00000 #0FF00000
-  gLumia535PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x03300000
+  gLumia435PkgTokenSpaceGuid.PcdPreAllocatedMemorySize|0x3CD00000 #0FF00000
+  gLumia435PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x03300000
 
   # Default resolution for this firmware can be seen in dec file, override here for specific platform configuration if needed
-  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|480
-  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|800
-  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|480
-  #gLumia535PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|800
+  #gLumia435PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|480
+  #gLumia435PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|800
+  #gLumia435PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|480
+  #gLumia435PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|800
 
 [PcdsDynamicDefault.common]
   #
@@ -63,4 +63,4 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|40
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|100
 
-!include Lumia535Pkg/Shared.dsc.inc
+!include Lumia435Pkg/Shared.dsc.inc
