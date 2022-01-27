@@ -34,7 +34,7 @@
 [PcdsFixedAtBuild.common]
   gArmTokenSpaceGuid.PcdSystemMemorySize|0x40000000         # 1GB
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x00000000
-  gArmPlatformTokenSpaceGuid.PcdCoreCount|4
+  gArmPlatformTokenSpaceGuid.PcdCoreCount|2
   gLumia435PkgTokenSpaceGuid.PcdPreAllocatedMemorySize|0x3CD00000 #0FF00000
   gLumia435PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x03300000
 
