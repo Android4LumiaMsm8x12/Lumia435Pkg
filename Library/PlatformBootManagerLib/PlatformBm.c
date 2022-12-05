@@ -501,9 +501,9 @@ GetPlatformOptions (
     // Register a hotkey with the boot option, if requested.
     //
 
-    // if (BootKeys[Index].UnicodeChar == L'\0') {
-    //   continue;
-    // }
+    if (BootKeys[Index].UnicodeChar == L'\0') {
+       continue;
+    }
 
     Status = EfiBootManagerAddKeyOptionVariable (
                NULL,
@@ -737,7 +737,7 @@ PlatformBootManagerAfterConsole (
   //
   // Enumerate all possible boot options.
   //
-  //EfiBootManagerRefreshAllBootOption ();
+  EfiBootManagerRefreshAllBootOption ();
 
   //
   // Register UEFI Shell
