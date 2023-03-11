@@ -121,7 +121,7 @@ SMBIOS_TABLE_TYPE0 mBIOSInfoType0 = {
 };
 
 CHAR8 *mBIOSInfoType0Strings[] = {
-  "Mr Tunnel.", // Vendor String
+  "vicenteicc2008.", // Vendor String
   "Built: " __DATE__,             // BiosVersion String
   "Built: " __DATE__,             // BiosReleaseDate String
   NULL
@@ -144,9 +144,9 @@ SMBIOS_TABLE_TYPE1 mSysInfoType1 = {
 CHAR8  *mSysInfoType1Strings[] = {
   "Microsoft",
   "Lumia 435",
-  "RM-1089",
+  "RM-1070",
   "0bc52bb9-9473-4875-be2a-3973076c20e2",
-  "RM-1089",
+  "RM-1070",
   "Phone",
   NULL
 };
@@ -178,7 +178,7 @@ SMBIOS_TABLE_TYPE2  mBoardInfoType2 = {
 CHAR8  *mBoardInfoType2Strings[] = {
   "Microsoft",
   "Lumia 435",
-  "RM-1089",
+  "RM-1070",
   "0bc52bb9-9473-4875-be2a-3973076c20e2",
   "",
   "",
