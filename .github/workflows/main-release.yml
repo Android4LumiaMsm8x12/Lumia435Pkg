@@ -36,7 +36,7 @@ jobs:
       run: |
         cd /home/runner/work/EDK2WorkDir/edk2 
         . /home/runner/work/EDK2WorkDir/edk2/edksetup.sh 
-        GCC5_ARM_PREFIX=arm-linux-gnueabihf- build -a ARM -p Lumia435Pkg/Lumia435.dsc -t GCC5 -j$(nproc) -s -n 0
+        GCC5_ARM_PREFIX=arm-linux-gnueabihf- build -a ARM -p Lumia435Pkg/Lumia435.dsc -t GCC5 -j$(nproc) -s -n 0 -b RELEASE
         
     - name: Create ELF binary
       run: |
