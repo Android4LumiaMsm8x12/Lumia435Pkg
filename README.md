@@ -2,7 +2,7 @@
 WIP Custom ARM UEFI firmware for Lumia435
 
 # Current Status
-Linux boots but touch is not working
+Linux boots 
 
 # Credits
 Thanks to rickliu2000 for creating Lumia930Pkg
