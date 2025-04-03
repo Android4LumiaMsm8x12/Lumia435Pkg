@@ -2,7 +2,7 @@
 WIP Custom ARM UEFI firmware for Lumia435
 
 # Current Status
-Linux boots 
+Linux boots but Android Kernel is WIP
 
 # Credits
 Thanks to rickliu2000 for creating Lumia930Pkg
